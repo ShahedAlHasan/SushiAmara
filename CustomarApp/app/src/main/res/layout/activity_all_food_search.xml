@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/food4"
+    tools:context=".view.AllFoodSearch">
+
+    <LinearLayout
+        android:background="#802E3549"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_marginTop="50dp"
+            android:background="@drawable/search_box"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/search_bar_base"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/foodRecyallfood"/>
+
+            <FrameLayout
+                android:visibility="invisible"
+                android:id="@+id/fram2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    app:srcCompat="@drawable/curt2_wh"/>
+
+                <TextView
+                    android:id="@+id/item2"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circel_background2"
+                    android:elevation="7dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#FFF"
+                    android:textSize="18sp" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

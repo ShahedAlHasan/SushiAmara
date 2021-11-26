@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "316101764416",
+    "firebase_url": "https://fooddelivary-6b207.firebaseio.com",
+    "project_id": "fooddelivary-6b207",
+    "storage_bucket": "fooddelivary-6b207.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316101764416:android:47ee32842b41c5648a06a5",
+        "android_client_info": {
+          "package_name": "sushi.amara.com.adminapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316101764416-n8n11rs9vdet908v8cuqfgbmk8gnigok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sushi.amara.com.adminapps",
+            "certificate_hash": "ad9a1332c7325a1951abbfc46bfbdf3fed96ef4b"
+          }
+        },
+        {
+          "client_id": "316101764416-048easg7ltkunl6l5hf002ll4323f6g3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzvivL7TNkABDx8XqzvC2ngBzbUDrnCZE"
+        },
+        {
+          "current_key": "AIzaSyBv91iNXJBVsJC2lK5uAl0nLzvPgqP_1cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316101764416-048easg7ltkunl6l5hf002ll4323f6g3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316101764416:android:56e1ff1f100185a58a06a5",
+        "android_client_info": {
+          "package_name": "sushi.amara.com.customarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316101764416-7lths043j64jdlh7thkkptm83elnd3dl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sushi.amara.com.customarapp",
+            "certificate_hash": "89b83a6f14bf363eac1d58b801c028f91556b0cb"
+          }
+        },
+        {
+          "client_id": "316101764416-7c580retepgg8tral68rtqr7i4jf4vch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sushi.amara.com.customarapp",
+            "certificate_hash": "ad9a1332c7325a1951abbfc46bfbdf3fed96ef4b"
+          }
+        },
+        {
+          "client_id": "316101764416-048easg7ltkunl6l5hf002ll4323f6g3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzvivL7TNkABDx8XqzvC2ngBzbUDrnCZE"
+        },
+        {
+          "current_key": "AIzaSyBv91iNXJBVsJC2lK5uAl0nLzvPgqP_1cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316101764416-048easg7ltkunl6l5hf002ll4323f6g3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

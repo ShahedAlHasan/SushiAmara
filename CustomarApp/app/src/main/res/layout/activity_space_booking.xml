@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SpaceBooking">
+
+
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/we_need_this_information"
+                android:textColor="@color/Black"
+                android:textSize="16sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/Black"/>
+
+            <LinearLayout
+                android:padding="4dp"
+                android:background="@drawable/pick_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                >
+                <Spinner
+                    android:id="@+id/isp_pac2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:background="#C7C7C7"
+                    android:padding="4dp"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/group_people"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8">
+
+                    <EditText
+                        android:id="@+id/group"
+                        android:hint="@string/possible_guests"
+                        android:textColor="@color/Black"
+                        android:textAlignment="textStart"
+                        android:paddingTop="4dp"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="4dp"
+                        android:background="@drawable/pick_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/party_date"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@color/colorAccent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/time4"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/set_time"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:background="#C7C7C7"
+                    android:padding="4dp"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/edit"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8">
+
+                    <EditText
+                        android:gravity="start"
+                        android:minLines="3"
+                        android:inputType="textMultiLine"
+                        android:id="@+id/pick_note"
+                        android:hint="@string/any_food_choice"
+                        android:textColor="@color/Black"
+                        android:textAlignment="textStart"
+                        android:paddingTop="4dp"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="4dp"
+                        android:background="@drawable/pick_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/you_basic_information"
+                android:textColor="@color/Black"
+                android:textSize="16sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/Black"/>
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:background="#C7C7C7"
+                    android:padding="4dp"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/man_user"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8">
+
+                    <EditText
+                        android:id="@+id/name2"
+                        android:inputType="text"
+                        android:hint="Name *"
+                        android:textColor="@color/Black"
+                        android:textAlignment="textStart"
+                        android:paddingTop="4dp"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="4dp"
+                        android:background="@drawable/pick_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:background="#C7C7C7"
+                    android:padding="4dp"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/telephone"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8">
+
+                    <EditText
+                        android:id="@+id/phone2"
+                        android:inputType="phone"
+                        android:hint="Telefonnummer *"
+                        android:textColor="@color/Black"
+                        android:textAlignment="textStart"
+                        android:paddingTop="4dp"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="4dp"
+                        android:background="@drawable/pick_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:background="#C7C7C7"
+                    android:padding="4dp"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/mail_black"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8">
+
+                    <EditText
+                        android:id="@+id/mail2"
+                        android:inputType="textEmailAddress"
+                        android:hint="Email *"
+                        android:textColor="@color/Black"
+                        android:textAlignment="textStart"
+                        android:paddingTop="4dp"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="4dp"
+                        android:background="@drawable/pick_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="booking"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/complete_booking"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:background="@color/colorAccent"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

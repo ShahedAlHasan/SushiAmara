@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sushi.amara.com.customarapp">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+
+            -->
+
+
+        <activity android:name="sushi.amara.com.customarapp.view.MollieActivity" >
+
+
+        </activity>
+        <activity android:name="sushi.amara.com.customarapp.view.PaymentDetails" />
+        <activity android:name="sushi.amara.com.customarapp.view.PaypalPayment" />
+        <activity android:name="sushi.amara.com.customarapp.view.ProfileActivity" />
+        <activity android:name="sushi.amara.com.customarapp.view.RegisterActivity" />
+        <activity android:name="sushi.amara.com.customarapp.view.AllFoodSearch" />
+        <activity android:name="sushi.amara.com.customarapp.view.BookingRequestList" />
+        <activity android:name="sushi.amara.com.customarapp.view.SpaceBooking" />
+        <activity android:name="sushi.amara.com.customarapp.view.PickUpInfrormation" >
+            <!--<intent-filter>
+                <data
+                    android:host="payment-return"
+                    android:scheme="mollie-app" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name="sushi.amara.com.customarapp.view.Datenschutzerklarung" />
+        <activity android:name="sushi.amara.com.customarapp.view.Impressum" />
+        <activity android:name="sushi.amara.com.customarapp.view.ContactUs" >
+
+        </activity>
+        <activity android:name="sushi.amara.com.customarapp.view.FinalCart" />
+        <activity android:name="sushi.amara.com.customarapp.view.FoodActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name="sushi.amara.com.customarapp.view.LocationActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity android:name="sushi.amara.com.customarapp.view.NaviBase" />
+
+        <activity android:name="sushi.amara.com.customarapp.view.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

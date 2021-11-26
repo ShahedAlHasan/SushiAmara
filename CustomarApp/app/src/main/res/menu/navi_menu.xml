@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        >
+
+        <item
+
+            android:id="@+id/nav_profile"
+            android:title="@string/profile"
+            android:icon="@drawable/user"
+            >
+        </item>
+        <item
+
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            >
+        </item>
+
+<!--        <item-->
+
+<!--            android:id="@+id/nav_menu"-->
+<!--            android:title="@string/menu"-->
+<!--            android:icon="@drawable/menu"-->
+<!--            >-->
+<!--        </item>-->
+
+        <item
+
+            android:id="@+id/nav_search"
+            android:title="@string/search_food"
+            android:icon="@drawable/search"
+            >
+        </item>
+
+        <item
+
+            android:id="@+id/nav_space_booking"
+            android:title="@string/space_booking"
+            android:icon="@drawable/wedding_dinner"
+            >
+        </item>
+
+        <item
+            android:id="@+id/nav_contact"
+            android:title="@string/contact"
+            android:icon="@drawable/phone_book"
+            >
+        </item>
+
+        <item
+            android:id="@+id/nav_Impressum"
+            android:title="@string/impressum"
+            android:icon="@drawable/warning"
+            >
+        </item>
+        <item
+            android:id="@+id/nav_Datenschutzerklarung"
+            android:title="@string/datenschutzerklarung"
+            android:icon="@android:drawable/sym_contact_card"
+            >
+        </item>
+
+
+
+        <!--        <item
+                    android:id="@+id/nav_online"
+                    android:title="ORDER ONLINE"
+                    android:icon="@android:drawable/presence_online"
+                    >
+                </item>-->
+        <item android:title="@string/order_online"
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_onlineA"
+                    android:title="@string/store_a"
+                    android:icon="@drawable/front_store"
+                    >
+                </item>
+
+                <item
+                    android:id="@+id/nav_call2"
+                    android:title="+49(0)2173-1625015\n(Langenfeld)"
+                    android:icon="@android:drawable/sym_call_outgoing"
+                    >
+                </item>
+
+                <item
+
+                    android:id="@+id/nav_onlineB"
+                    android:title="@string/store_b"
+                    android:icon="@drawable/front_store"
+                    >
+                </item>
+
+                <item
+
+                    android:id="@+id/nav_call1"
+                    android:title="+49(0)2175-1869932\n(Leichlingen)"
+                    android:icon="@android:drawable/sym_call_outgoing"
+                    >
+                </item>
+            </menu>
+        </item>
+
+
+
+
+
+
+        <!--<item android:title="@string/call">
+            <menu>
+                <item
+
+                    android:id="@+id/nav_call1"
+                    android:title="+49(0)2175-1869932\n(Leichlingen)"
+                    android:icon="@android:drawable/sym_call_outgoing"
+                    >
+                </item>
+                <item
+                    android:id="@+id/nav_call2"
+                    android:title="+49(0)2173-1625015\n(Langenfeld)"
+                    android:icon="@android:drawable/sym_call_outgoing"
+                    >
+                </item>
+            </menu>
+        </item>-->
+
+        <!--        <item
+                    android:id="@+id/nav_call"
+                    android:title="CALL"
+                    android:icon="@android:drawable/sym_call_outgoing"
+                    >
+                </item>-->
+
+
+    </group>
+
+</menu>

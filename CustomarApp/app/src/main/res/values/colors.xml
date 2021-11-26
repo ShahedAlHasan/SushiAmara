@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+
+    <color name="rippleEffectColor">#f816a463</color>
+    <color name="btnColor">#FF010B</color>
+    <color name="btnColo">#1fbad6</color>
+    <color name="baseReleseColor">#212121</color>
+    <color name="basePressColor">#FAFAFA</color>
+    <color name="ballReleaseColor">#9E9E9E</color>
+    <color name="transfarent">#E69E9E9E</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/colorMain</item>
+        <item>@color/textColorOrange</item>
+        <item>@color/colorMain</item>
+        <item>@color/textColorOrange</item>
+
+    </integer-array>
+
+    <color name="colorMain">#006776</color>
+    <color name="textColorOrange">#ffa82c</color>
+
+    <color name="textColorWhite">#fff</color>
+    <color name="textColorBlack">#000000</color>
+
+    <color name="green">#49A822</color>
+
+</resources>

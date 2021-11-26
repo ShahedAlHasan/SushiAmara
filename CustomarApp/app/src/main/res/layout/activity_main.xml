@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30pt">
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nk_mono"
+                android:text="@string/resturentname"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="52sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nk_mono"
+                android:text="Japanische Küche in\n Langenfeld &amp; \nLeichlingen"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="26sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/store_background"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/storeA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nk_mono"
+                        android:gravity="center"
+                        android:text="@string/store_a"
+                        android:textAlignment="center"
+                        android:textColor="@color/White"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/store1Massege"
+                        android:layout_marginTop="1pt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nk_mono"
+                        android:gravity="center"
+                        android:text="@string/open_now"
+                        android:textAlignment="center"
+                        android:textColor="@color/White"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="5pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/store_background"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/storeB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nk_mono"
+                    android:gravity="center"
+                    android:text="@string/store_b"
+                    android:textAlignment="center"
+                    android:textColor="@color/White"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/store2Massege"
+                        android:layout_marginTop="1pt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nk_mono"
+                        android:gravity="center"
+                        android:text="@string/open_now"
+                        android:textAlignment="center"
+                        android:textColor="@color/White"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

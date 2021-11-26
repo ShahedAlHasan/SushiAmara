@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/liniae"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".view.LocationActivity">
+
+    <!--        android:background="#802E3549"-->
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nk_mono"
+                android:text="@string/youhave"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nk_mono"
+                android:id="@+id/storeTv"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="32sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150pt"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+
+                <Button
+                    android:onClick="pickup"
+                    android:fontFamily="@font/nk_mono"
+                    android:textColor="#FFF"
+                    android:layout_width="72pt"
+                    android:layout_height="24pt"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="@string/pickup"
+                    android:background="@drawable/store_background"/>
+
+
+                <TextView
+                    android:id="@+id/mCurrent_location"
+                    android:gravity="center"
+                    android:fontFamily="@font/amiko_semibold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:padding="8dp"
+                    android:background="@drawable/pick_info"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20pt"
+                    />
+
+
+                <Button
+                    android:layout_marginTop="20pt"
+                    android:onClick="delivery"
+                    android:fontFamily="@font/nk_mono"
+                    android:layout_width="72pt"
+                    android:layout_height="24pt"
+                    android:text="@string/delivery"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:background="@drawable/store_background"
+                    android:textColor="#FFF"
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/your_current_location_will_be_fetched_automatically"
+            android:textColor="@color/White"
+            android:gravity="center"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/nk_mono"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

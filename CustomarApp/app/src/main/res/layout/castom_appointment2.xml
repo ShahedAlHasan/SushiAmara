@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="495dp"
+    android:background="@drawable/custom_appoi"
+    android:layout_gravity="center">
+    <TextView
+        android:background="@drawable/circel_background"
+        android:id="@+id/txtclose5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:text="X"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_store"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            />
+        <RadioGroup
+            android:id="@+id/storeGroup5"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radio51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Langenfeld"/>
+
+            <RadioButton
+                android:id="@+id/radio52"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leichlingen"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/deliorpic"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20pt"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/deleviry"
+            android:fontFamily="@font/amiko_bold"
+            android:layout_width="0dp"
+            android:layout_height="20pt"
+            android:layout_weight="2"
+            android:text="@string/delivery"
+            android:background="#00ACC1"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="OR"
+            android:textColor="#FFF"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <Button
+            android:onClick="pickup2"
+            android:fontFamily="@font/amiko_bold"
+            android:textColor="#FFF"
+            android:layout_width="0dp"
+            android:layout_height="20pt"
+            android:layout_weight="2"
+            android:text="@string/pickup"
+            android:background="#43A047"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anschrift :"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/second"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Straße :"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            />
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/road5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/write_text_5"
+            android:fontFamily="@font/amiko_semibold"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:inputType="text"
+            android:padding="1dp"
+            android:singleLine="true"
+            android:textColor="#000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/third"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hausnummer :"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            />
+        <EditText
+            android:id="@+id/house5"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/write_text_5"
+            android:fontFamily="@font/amiko_semibold"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:inputType="text"
+            android:padding="1dp"
+            android:singleLine="true"
+            android:textColor="#000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/fourth"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Postleitzahl :"
+
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            />
+        <EditText
+            android:id="@+id/poscpde5"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/write_text_5"
+            android:fontFamily="@font/amiko_semibold"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:inputType="number"
+            android:padding="1dp"
+            android:singleLine="true"
+            android:textColor="#000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/fith"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stadt :"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            />
+        <EditText
+            android:id="@+id/city5"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/write_text_5"
+            android:fontFamily="@font/amiko_semibold"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:inputType="textAutoComplete"
+            android:padding="1dp"
+            android:singleLine="true"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/six"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:textColor="@color/White"
+            android:id="@+id/confirmBooking5"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textAllCaps="false"
+            android:text="Fortsetzen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/store_background"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
